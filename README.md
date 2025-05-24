@@ -1,16 +1,17 @@
 # Diwali Sales Analysis
 
-This project analyzes Diwali sales data to uncover customer purchasing behavior, identify top-performing products and regions, and provide actionable insights using Python (Jupyter Notebook) and Power BI.
+This project analyzes Diwali sales data to uncover customer purchasing behavior, identify top-performing products and regions, and provide actionable insights using Python (Jupyter Notebook).
 
 ---
 
 ## 📁 Project Structure
-├── Diwali Sales Data.csv # Raw dataset
-├── diwali_sales_analysis.ipynb # Jupyter Notebook with data analysis and visualization
-├── SalesDashboard.pbix # Power BI dashboard file
-├── README.md # Project documentation
-├── .gitignore # Files and folders to ignore in version control
 
+```
+├── Diwali Sales Data.csv          # Raw dataset
+├── diwali_sales_analysis.ipynb   # Jupyter Notebook with data analysis and visualization
+├── README.md                     # Project documentation
+├── .gitignore                    # Files and folders to ignore in version control
+```
 
 ---
 
@@ -19,7 +20,6 @@ This project analyzes Diwali sales data to uncover customer purchasing behavior,
 - Clean and preprocess Diwali sales data
 - Perform exploratory data analysis (EDA)
 - Visualize key trends in customer demographics, product performance, and geography
-- Build an interactive Power BI dashboard for stakeholder insights
 
 ---
 
@@ -49,7 +49,6 @@ The dataset contains sales transaction records during the Diwali festival season
 - **Marital Status**: Married customers were responsible for a higher proportion of purchases.
 - **Top States**: Uttar Pradesh, Maharashtra, and Karnataka topped the charts in sales volume.
 - **Product Categories**: Categories like Clothing and Electronics saw the highest traction during Diwali.
-- **Power BI Dashboard**: Interactive visuals provide deeper insight into gender distribution, state-wise revenue, and top-selling products.
 
 ---
 
@@ -57,7 +56,6 @@ The dataset contains sales transaction records during the Diwali festival season
 
 - **Python** – Data cleaning and EDA (`pandas`, `matplotlib`, `seaborn`)
 - **Jupyter Notebook** – Interactive coding and visualization
-- **Power BI** – Business intelligence dashboard for decision-makers
 
 ---
 
@@ -68,13 +66,18 @@ The dataset contains sales transaction records during the Diwali festival season
    ```bash
    git clone https://github.com/your-username/diwali-sales-analysis.git
    cd diwali-sales-analysis
+   ```
 
-2.  Open the Notebook:
+2. **Open the Notebook:**
 
-   git clone jupyter notebook diwali_sales_analysis.ipynb
+   ```bash
+   jupyter notebook diwali_sales_analysis.ipynb
+   ```
 
-3. Launch Power BI Dashboard:
+---
 
-   Open the SalesDashboard.pbix file in Power BI Desktop.
+## 📝 License
 
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
+---
